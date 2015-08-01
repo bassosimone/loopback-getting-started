@@ -4,9 +4,10 @@
     "connector": "memory"
   },
   "mongo": {
-    "name": "mongo",
-    "connector": "mongodb",
     "host": "127.0.0.1",
-    "port": 27017
+    "port": 27017,
+    "database": "strongloop_getting_started",
+    "name": "mongo",
+    "connector": "mongodb"
   }
 }
